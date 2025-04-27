@@ -162,7 +162,6 @@ public:
 
     void get_squares() { ExerciseBook::get_squares(); cout << how_much_squares << endl; }
     int open_page(int page) { cout << "A squarebook is opened on page: " << ExerciseBook::open_page(page) << endl; return ExerciseBook::open_page(page); }
-    int write_smth(int page) { cout << "Writing something on the page " << ExerciseBook::write_smth(page) << endl; return ExerciseBook::write_smth(page); }
     string tell_format() { cout << "The format is: " << ExerciseBook::tell_format() << endl; return ExerciseBook::tell_format(); }
     void Open() { ExerciseBook::Open(); }
 
@@ -187,7 +186,6 @@ public:
     void printype() {cout << "That's a linebook" << endl;}
     void get_lines() { ExerciseBook::get_lines(); cout << how_much_lines << endl; }
     int open_page(int page) { cout << "A linebook is opened on page: " << ExerciseBook::open_page(page) << endl; return ExerciseBook::open_page(page); }
-    int write_smth(int page) { cout << "Writing something on the page " << ExerciseBook::write_smth(page) << endl; return ExerciseBook::write_smth(page); }
     string tell_format() { cout << "The format is: " << ExerciseBook::tell_format() << endl; return ExerciseBook::tell_format(); }
     void Open() { ExerciseBook::Open(); }
 };
@@ -212,7 +210,6 @@ public:
     void printype() {cout << "That's a ringbook" << endl;}
     void get_amount_pages() { ExerciseBook::get_amount_pages(); cout << how_much_pages << endl; }
     int open_page(int page) { cout << "A ringbook is opened on page: " << ExerciseBook::open_page(page) << endl; return ExerciseBook::open_page(page); }
-    int write_smth(int page) { cout << "Writing something on the page " << ExerciseBook::write_smth(page) << endl; return ExerciseBook::write_smth(page); }
     string tell_format() { cout << "The format is: " << ExerciseBook::tell_format() << endl; return ExerciseBook::tell_format(); }
     void Open() { ExerciseBook::Open(); }
 };
